@@ -1,0 +1,125 @@
+*{
+    
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: inherit
+    
+}
+
+body {
+    background-color: #eee;
+    padding-left: 15%;
+    width: 100%
+}
+
+.nav-bar{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.lista-remedios{
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+    background-color: blanchedalmond;
+    border-bottom: solid 2px black
+        
+}
+
+nav{
+    border: solid 2px black;
+    overflow: auto;
+     padding: 7px;
+    font-size: 23px
+     
+}
+.side-bar::-webkit-scrollbar {
+  display: none;  
+}
+
+h1, h2{
+    left: 40%;
+    font-size: 90px;
+    background-color: ;
+    padding: 12.2px;
+    position: absolute;
+}
+
+.img-inicio{
+     max-width: 100%;
+    width: 100%;
+    object-fit: fill;
+    z-index: -100;
+    
+}
+
+
+.remedios li{
+    padding: 7px;
+    
+}
+
+.inicio{
+    background-color: floralwhite
+}
+
+h2 {
+    font-size: 70px;
+    left: 25vw;
+    top: 11vw
+}
+.bach{
+     position: absolute;
+    top:47vw;
+    left: 78vw;
+    font-size: 40px;
+    font-weight: 1000
+    
+}
+
+ .frase{
+    color: black;
+     position: absolute;
+     font-size: 35px;
+     top: 35vw;
+     left: 50vw;
+     right: 2vw;
+}
+
+.cuestionario{
+    background-color: floralwhite;
+    height: 100vw
+    
+}
+
+.titulo-segunda-pagina{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px 0 0;
+     font-size: 50px
+}
+
+.titulo-segunda-pagina p{
+    padding: 50px;
+    font-size: 30px
+}
+
+.siete-preguntas li{
+    background-color: floralwhite;
+  padding: 30px;
+    font-size: 30px
+}
+
+.siete-preguntas p{
+    padding: 8px
+}
